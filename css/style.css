@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Romanesco');
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 10px;
+	color: #888888;
+}
+body {
+	min-height: 100%;
+	font-size: 1.6rem;
+	margin: 0;
+}
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+h1 {	
+	font-size: 10rem;
+	margin: 2.5rem 0 4rem 0;
+}
+.container {
+	max-width: 1170px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+.container__header {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__link {
+	text-decoration: none;
+}
+.nav:hover,
+.nav:active,
+.nav:focus {
+	color: #f57365;
+}
+.logo:hover,
+.nav:active,
+.nav:focus {
+	color: #f57365;
+}
+.nav {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #fff;
+}
+.nav__block {
+	padding: 0;
+}
+.nav__block li {
+	display: inline-block;
+	margin-left: 2em;
+}
+.section--cover {
+	color: #fff;
+	background-position: center;
+	-webkit-background-size: cover;
+	 background-size: cover;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	letter-spacing: 0.4rem;
+
+}
+.section--cover__new-font {
+	font-family: 'Romanesco', cursive;
+	font-size: 3.6rem;
+	letter-spacing: .9rem;
+}
+
+.text-shadow {
+	text-shadow: 0 0 15px #2e2c2c;
+}
+
+.section--cover__btn {
+	padding: 2rem 7rem;
+	border: 2px solid #fff;
+	text-decoration: none;
+	background-color: transparent;
+	font-weight: 700;
+	font-size: 1.6rem;
+	display: inline-block;
+	margin-bottom: 4rem;
+	border-radius: .3rem;
+	color: #fff;
+	transition: all .3s ease-in-out; 
+}
+.section--cover__btn:hover,
+.section--cover__btn:focus,
+.section--cover__btn:active {
+	color: #000;
+	background-color: rgba(255,255,255, .8);
+}
+.section--cover__link{
+	color: #fff;
+}
+.section--cover__link:hover,
+.section--cover__link:activ,
+.section--cover__link:focus {
+	color: #f57365;
+}
+
+
+/*Helpers*/
+.text-center {
+	text-align: center;
+}
+.text-small {
+	font-size: 1.4rem;
+}
+
