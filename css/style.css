@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Romanesco');
+@font-face {
+	font-family: "Lato_"
+}
 * {
 	box-sizing: border-box;
 }
@@ -22,6 +25,10 @@ header {
 h1 {	
 	font-size: 10rem;
 	margin: 2.5rem 0 4rem 0;
+}
+h3 {
+	font-size: 1.8rem;
+	font-weight: bold;
 }
 .container {
 	max-width: 1170px;
@@ -73,17 +80,13 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	letter-spacing: 0.4rem;
+	letter-spacing: .4rem;
 
 }
 .section--cover__new-font {
 	font-family: 'Romanesco', cursive;
 	font-size: 3.6rem;
 	letter-spacing: .9rem;
-}
-
-.text-shadow {
-	text-shadow: 0 0 15px #2e2c2c;
 }
 
 .section--cover__btn {
@@ -109,10 +112,122 @@ h1 {
 	color: #fff;
 }
 .section--cover__link:hover,
-.section--cover__link:activ,
-.section--cover__link:focus {
+.section--cover__link:focus,
+.section--cover__link:activ {
 	color: #f57365;
 }
+.section__get {
+	display: flex;
+	flex-direction: row;
+	max-width: 1170px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 10rem 1.5rem;
+	background-color: #fff;
+}
+.get-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 33%;
+	line-height: 1.8rem;
+	color: #6b6b6b;
+	font-weight: 350;
+	padding: 0 .5rem;
+}
+.icon--wrapper {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	border: 3px solid #393737;
+	margin: 0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 1rem;
+}
+.icon--wrapper__burger {
+	background-image: url(../img/Burger.png);
+}
+.icon--wrapper__dollars {
+	background-image: url(../img/dollars.png);
+}
+.icon--wrapper__cook {
+	background-image: url(../img/cook.png);
+}
+.get-block h3::after  {
+	content: '';
+	display: block;
+	width: 10rem;
+	height: .2rem;
+	background-color: #f57365;
+	text-align: center;
+	margin: 1rem auto 0 auto;
+}
+
+.section__info {
+ 	background-color: #f7f7f7;
+ 	width: 100%;
+ 	padding: 0;
+}
+
+.section__info--wrapper {
+	display: flex;
+	flex-direction: row;
+}
+.section__info__iphone {
+	width: 50%;
+	padding: 10% 4% 0  0;
+	background-color: #f7f7f7;
+}
+.section__info__iphone img {
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+	top: .3rem;
+}
+.section__info__introduce {
+	padding: 15% 0 2% 4%;
+	width: 50%;
+}
+.section__info__introduce__google-play {
+ 	margin-right: 2rem;
+}
+.section__info__introduce--wrapper-img {
+	margin-top: 3rem;
+}
+.section__info__introduce--wrapper-img a {
+	cursor: pointer;
+}
+.section__info__introduce--wrapper-img a:hover,
+.section__info__introduce--wrapper-img a:focus {
+	opacity: .7;
+}
+.section__info__introduce h3::after  {
+	content: '';
+	display: block;
+	width: 10rem;
+	height: .2rem;
+	background-color: #f57365;
+	margin: 1rem 0 2rem 0;
+}
+.section__info__introduce p {
+	color: #6b6b6b;
+	font-weight: 350;
+	margin-top: 4rem; 
+	line-height: 1.9rem;
+}
+.section__team {
+	padding: 8% 20%;
+	background: #334f3f4e url(../img/);
+}
+.section__team__member {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	border: .3rem solid #948b94;
+	margin: 0 auto;
+}
+
 
 
 /*Helpers*/
@@ -122,4 +237,8 @@ h1 {
 .text-small {
 	font-size: 1.4rem;
 }
+.text-shadow {
+	text-shadow: 0 0 1.5rem #2e2c2c;
+}
+
 
