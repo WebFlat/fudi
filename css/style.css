@@ -38,10 +38,12 @@ h3 {
 }
 h4 {
 	font-size: 3.6rem;
-	font-weight: bold;
+	font-weight: 600;
 	padding: 0;
 	margin: 1rem 0 0 0;
-	text-transform: uppercase;			
+	text-transform: uppercase;
+	text-shadow: 0 0 1.5rem #2e2c2c;
+			
 }
 .container {
 	max-width: 1170px;
@@ -276,7 +278,7 @@ h4 {
 .section__item {
 	width: 100%;
 	background-color: #fff;
-	padding: 10rem 0 5rem 0;
+	padding: 10rem 0 0 0;
 }
 .section__item h3::after {
 	content: '';
@@ -298,6 +300,7 @@ h4 {
 	-o-flex-direction: row;
 	flex-direction: row;
 	padding: 0;
+	margin: 0;
 	flex-wrap: wrap;
 	list-style: none;
 	cursor: pointer;
@@ -305,7 +308,6 @@ h4 {
 }
 .menu__item {
 	width: 20%;
-	min-width: 15%;
 	padding: 5rem 0 4.5rem 0;
 	color: #fff;
 }
@@ -313,8 +315,10 @@ h4 {
 	opacity: .7;
 }
 .menu__recepts {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin: 0 auto;
+	font-family: 'Romanesco', cursive;
+	letter-spacing: .2em;
 }
 .menu__item--italian {
 	background: #fff url(../img/italian.jpg) no-repeat;
@@ -328,35 +332,97 @@ h4 {
 	background: #fff url(../img/french.jpg) no-repeat;
 	background-size: cover;	
 }
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
+.menu__item--steakhouse {
+	background: #fff url(../img/steakhouse.jpg) no-repeat;
 	background-size: cover;	
 }
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
+.menu__item--seafood {
+	background: #fff url(../img/seafood.jpg) no-repeat;
 	background-size: cover;	
 }
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
+.menu__item--sushi {
+	background: #fff url(../img/sushi.jpg) no-repeat;
 	background-size: cover;	
 }
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
+.menu__item--mexican {
+	background: #fff url(../img/mexican.jpg) no-repeat;
 	background-size: cover;	
 }
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
+.menu__item--chinese {
+	background: #fff url(../img/chinese.jpg) no-repeat;
 	background-size: cover;	
 }
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
+.menu__item--pizza {
+	background: #fff url(../img/pizza.jpg) no-repeat;
 	background-size: cover;	
 }
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
+.menu__item--american {
+	background: #fff url(../img/american.jpg) no-repeat;
 	background-size: cover;	
 }
-
+.section__counters {
+	padding: 5rem 0;
+	color: #000;
+	font-weight: 300;
+}
+.section__counters--wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+.section__counters__counter {
+	width: 20%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.counter__number {
+	font-size: 3.6rem;
+	font-weight: 700;
+	
+}
+footer {
+	background-color: #f7f7f7;
+	padding: 4rem 1rem;
+}
+.footer__content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 4rem;
+}
+.footer__content__copyright {
+	opacity: .5;
+	font-weight: lighter;
+}
+.footer__content__link {
+	letter-spacing: .2em;
+}
+p.footer__content__link {
+	font-weight: lighter;
+}
+.footer__content__link a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #000;
+	transition: all .3s ease-in-out;
+}
+.footer__content__link a:hover,
+.footer__content__link a:focus,
+.footer__content__link a:active {
+	background-color: #948b94;
+	color: #fff;
+}
 
 /*Helpers*/
 .text-center {
