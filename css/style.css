@@ -391,7 +391,7 @@ h4 {
 }
 .menu__item {
 	width: 20%;
-	padding: 5rem 0 4.5rem 0;
+	padding: 5rem .5rem 4.5rem .5rem;
 	color: #fff;
 }
 .menu__item:hover {
