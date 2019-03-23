@@ -1,0 +1,51 @@
+@media screen and (max-width: 1012px) {
+	* {
+		transition: all .4s ease-in-out;
+	}
+	.section__info--wrapper {
+		flex-direction: column-reverse;
+	}
+	.section__info__iphone {
+		width: 100%;
+		text-align: center;
+		padding: 1rem 1.5rem 0 0;
+	}
+	.section__info__introduce {
+		margin: 0 auto;
+		text-align: center;
+		
+	}
+	.section__info__iphone img {
+	max-width: 50%;
+	max-height: 50%;
+	}
+	.section__info__introduce h3::after{
+		margin: 1rem auto 0 auto;
+	}
+	.menu__item {
+		min-width: 50%;
+	}
+}
+@media screen and (max-width: 940px)  {
+	.section__counters__counter {
+		min-width: 50%;
+		margin: 0 auto 2rem auto;
+	}
+	.section__counters--wrapper {
+		flex-wrap: wrap;
+		justify-content: space-between;		
+	}
+	.section__info__introduce {
+    padding: 10% 0 2% 0;
+    width: 100%;
+	}
+	.footer__content {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+		  
+	}
+}
