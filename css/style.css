@@ -154,7 +154,7 @@ h4 {
 }
 .section--cover__link:hover,
 .section--cover__link:focus,
-.section--cover__link:activ {
+.section--cover__link:active {
 	color: #f57365;
 }
 
