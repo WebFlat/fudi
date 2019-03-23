@@ -91,6 +91,20 @@ h4 {
 	display: inline-block;
 	margin-left: 2em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section--cover {
 	color: #fff;
 	background-position: center;
@@ -114,7 +128,6 @@ h4 {
 	font-size: 3.6rem;
 	letter-spacing: .9rem;
 }
-
 .section--cover__btn {
 	padding: 2rem 7rem;
 	border: 2px solid #fff;
@@ -144,6 +157,21 @@ h4 {
 .section--cover__link:activ {
 	color: #f57365;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section__get {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -213,12 +241,21 @@ h4 {
 	margin: 1rem auto 0 auto;
 }
 
+
+
+
+
+
+
+
+
+
+
 .section__info {
  	background-color: #f7f7f7;
  	width: 100%;
  	padding: 0;
 }
-
 .section__info--wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -271,6 +308,18 @@ h4 {
 	margin-top: 4rem; 
 	line-height: 1.9rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .section__team {
 	padding: 5% 12%;
 	background-size: contain;
@@ -394,6 +443,25 @@ h4 {
 	background: #fff url(../img/american.jpg) no-repeat;
 	background-size: cover;	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section__counters {
 	padding: 5rem 0;
 	color: #000;
@@ -429,6 +497,24 @@ h4 {
 	font-weight: 700;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
 	background-color: #f7f7f7;
 	padding: 4rem 1rem;
