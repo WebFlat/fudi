@@ -2,6 +2,12 @@
 	h4{
 		font-size: 3rem;
 	}
+	.menu__item {
+		min-width: 40%;
+	}
+	.menu--wrapper {
+		justify-content: center;
+	}
 }
 @media screen and (max-width: 1012px) {
 	* {
@@ -18,18 +24,17 @@
 	.section__info__introduce {
 		margin: 0 auto;
 		text-align: center;
-		
+		padding: 10% 0 2% 0;
+    	width: 100%;
 	}
 	.section__info__iphone img {
-	max-width: 50%;
-	max-height: 50%;
+		max-width: 50%;
+		max-height: 50%;
 	}
 	.section__info__introduce h3::after{
 		margin: 1rem auto 0 auto;
 	}
-	.menu__item {
-		min-width: 50%;
-	}
+	
 }
 @media screen and (max-width: 940px)  {
 	.section__counters__counter {
@@ -39,10 +44,6 @@
 	.section__counters--wrapper {
 		flex-wrap: wrap;
 		justify-content: space-between;		
-	}
-	.section__info__introduce {
-    padding: 10% 0 2% 0;
-    width: 100%;
 	}
 	.footer__content {
 		-webkit-flex-direction: column;
@@ -89,6 +90,12 @@
 		}
 		.container__header {
 			width: 90%;
+		}
+		.menu__item {
+		min-width: 80%;
+		}
+	.menu--wrapper {
+		justify-content: center;
 		}
 }
 

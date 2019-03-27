@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Romanesco');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700%7CRomanesco');
 @font-face {
 	font-family: Lato-HairlineItalic;
 	src: url(../fonts/Lato_Hairline/Lato-HairlineItalic.ttf);
@@ -32,12 +31,12 @@ h1 {
 	font-size: 10rem;
 	margin: 2.1rem 0 4rem 0;
 }
-h3 {
+h2 {
 	font-size: 1.8rem;
 	font-weight: bold;
 	color: #000;
 }
-h4 {
+h3 {
 	font-size: 3.6rem;
 	font-weight: 600;
 	padding: 0;
@@ -180,9 +179,6 @@ h4 {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
-	max-width: 1170px;
-	width: 85%;
-	margin: 0 auto;
 	padding: 10rem 1.5rem;
 	background-color: #fff;
 }
@@ -209,29 +205,22 @@ h4 {
 	border-radius: 50%;
 	border: .25rem solid #393737;
 	margin: 0 auto;
-	background-position: center;
-	background-repeat: no-repeat;
+	padding: 1.3rem;
 	margin-bottom: 1rem;
 	cursor: pointer;
 	-webkit-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out; 
 }
-.icon--wrapper__burger {
-	background-image: url(../img/Burger.png);
-}
 .icon--wrapper__dollars {
-	background-image: url(../img/dollars.png);
-}
-.icon--wrapper__cook {
-	background-image: url(../img/cook.png);
+	padding-top: 3.1rem;
 }
 .icon--wrapper:hover,
 .icon--wrapper:focus,
 .icon--wrapper:active {
-	border: .6rem solid #948b94; 
+	background-color: #6b6b6b; 
 }
-.get-block h3::after  {
+.get-block h2::after  {
 	content: '';
 	display: block;
 	width: 10rem;
@@ -294,7 +283,7 @@ h4 {
 .section__info__introduce--wrapper-img a:focus {
 	opacity: .7;
 }
-.section__info__introduce h3::after  {
+.section__info__introduce h2::after  {
 	content: '';
 	display: block;
 	width: 10rem;
@@ -353,12 +342,67 @@ h4 {
 .section__team cite {
 	font-family: Lato-Hairline, sans-serif; 
 } 
+/*.section__team cite:after {
+	content: "\2022  \2022  \2022";
+	display: block;
+	margin-right: .5rem;
+	font-size: 3.5rem;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+	color: #756975;
+	font-family: Arial, serif;
+	cursor: pointer;
+}
+.section__team cite:hover:after {
+	color: #fff;
+}*/
+.section__team__dottes--wrapper {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.section__team__dottes a{
+	font-size: 2.5rem;
+	color: #756975;
+	cursor: pointer;
+	text-decoration: none;			
+}
+.section__team__dottes a:hover,
+.section__team__dottes a:active,
+.section__team__dottes a:focus {
+	color: #fff;
+}
+.section__team__dottes:nth-child(2) {
+	margin: 0 .3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .section__item {
 	width: 100%;
 	background-color: #fff;
 	padding: 10rem 0 0 0;
 }
-.section__item h3::after {
+.section__item h2::after {
 	content: '';
 	display: block;
 	width: 10rem;
@@ -388,62 +432,24 @@ h4 {
 	-webkit-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
+	font-size: 0;
 }
 .menu__item {
 	width: 20%;
-	padding: 5rem .5rem 4.5rem .5rem;
+	text-align: center;	
+	padding: 6rem .5rem 9rem .5rem;
+	margin: 0;
 	color: #fff;
 }
+
 .menu__item:hover {
 	opacity: .7;
 }
 .menu__recepts {
 	font-size: 1.8rem;
-	margin: 0 auto;
 	font-family: 'Romanesco', cursive;
 	letter-spacing: .2em;
 }
-.menu__item--italian {
-	background: #fff url(../img/italian.jpg) no-repeat;
-	background-size: cover;
-}
-.menu__item--indian {
-	background: #fff url(../img/indian.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--french {
-	background: #fff url(../img/french.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--steakhouse {
-	background: #fff url(../img/steakhouse.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--seafood {
-	background: #fff url(../img/seafood.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--sushi {
-	background: #fff url(../img/sushi.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--mexican {
-	background: #fff url(../img/mexican.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--chinese {
-	background: #fff url(../img/chinese.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--pizza {
-	background: #fff url(../img/pizza.jpg) no-repeat;
-	background-size: cover;	
-}
-.menu__item--american {
-	background: #fff url(../img/american.jpg) no-repeat;
-	background-size: cover;	
-}
-
 
 
 
